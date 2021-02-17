@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\ETNA\source\repos\Sem4\OOP345\class_notes\OOP345_W6_Lecture_containers\main.cpp(8,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ETNA\source\repos\Sem4\OOP345\class_notes\OOP345_W6_Lecture_containers\main.cpp(14,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ETNA\source\repos\Sem4\OOP345\class_notes\OOP345_W6_Lecture_containers\main.cpp(40,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ETNA\source\repos\Sem4\OOP345\class_notes\OOP345_W6_Lecture_containers\main.cpp(25,6): warning C4101: 'arr_2': unreferenced local variable
+  OOP345_W6_Lecture_containers.vcxproj -> C:\Users\ETNA\source\repos\Sem4\OOP345\class_notes\OOP345_W6_Lecture_containers\Debug\OOP345_W6_Lecture_containers.exe

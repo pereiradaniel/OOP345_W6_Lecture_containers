@@ -1,0 +1,2 @@
+C:\Users\ETNA\source\repos\Sem4\OOP345\class_notes\OOP345_W6_Lecture_containers\Debug\OOP345_W6_Lecture_containers.exe
+C:\Users\ETNA\source\repos\Sem4\OOP345\class_notes\OOP345_W6_Lecture_containers\Debug\OOP345_W6_Lecture_containers.pdb

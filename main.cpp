@@ -24,13 +24,23 @@ int main()
 	
 	int arr_2[5];
 
-	//	arr_2 = arr_1; // can't
-	
 	// STL: Standard Template Libraru
 	std::array<int, 5> arrSTL_1{};
 	std::array<int, 5> arrSTL_2{};
 
-	std::vector<int> vect; // dynamically allocated array.
+	std::vector<int> coll; // dynamically allocated array.
+	coll.push_back(5);
+	coll.push_back(8);
+	coll.push_back(32);
+	coll.push_back(9);
+	coll.push_back(1);
 
-	arrSTL_2 = arrSTL_1; // Advantage
+	for (auto i = 0; i < coll.size(); ++i)
+		cout << coll[i] << ", ";
+	cout << endl;
+	
+	for (auto& item : coll)
+		cout << item << ", ";
+	cout << endl;
+
 }
