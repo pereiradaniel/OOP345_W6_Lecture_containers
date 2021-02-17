@@ -25,8 +25,6 @@ int main()
 	
 	int arr_2[5];*/
 
-	
-
 	// std::vector<int> coll; // dynamically allocated array.
 	std::list<int> coll;
 	coll.push_back(5);
@@ -35,14 +33,12 @@ int main()
 	coll.push_back(9);
 	coll.push_back(1);
 
-	std::list<int>::iterator it = coll.begin();
-	for (; it != coll.end(); ++it)
-		cout << *it << ", "; // type *it is an integer
-	cout << endl;
+	for (auto it = coll.begin(); it != coll.end(); ++it);
 
-	//for (auto i = 0; i < coll.size(); ++i)
-	//	cout << coll[i] << ", ";
-	//cout << endl;
+	auto it = coll.begin();
+	++(++it);
+	// coll.insert(it, -87);
+	coll.erase(it);
 	
 	for (auto& item : coll)
 		cout << item << ", ";
